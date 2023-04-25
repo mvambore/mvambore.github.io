@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dynamic Player Names</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.input-container {
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+		}
+		.input-container input {
+			margin-right: 10px;
+		}
+		.player-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.player {
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+		}
+		.player-name {
+			margin-right: 10px;
+		}
+		.score-container {
+			display: flex;
+			align-items: center;
+		}
+		.score {
+			margin-right: 10px;
+		}
+		.btn-group {
+			display: flex;
+			flex-direction: column;
+		}
+		.btn-group button {
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="input-container">
+			<input type="text" id="player-name" placeholder="Enter player name">
+			<button onclick="addPlayer()">Add Player</button>
+		</div>
+		<div class="player-container" id="player-list">
+			<!-- Player names and scores will be dynamically added here -->
+		</div>
+	</div>
+
+	<script>
+		// Function to add player
+		function addPlayer() {
+			// Get input value
+			const playerNameInput = document.getElementById("player-name");
+			const playerName = playerNameInput.value;
+
+			// Create new player element
+			const newPlayer = document.createElement("div");
+			newPlayer.classList.add("player");
+
+			// Add player name
+			const playerNameElement = document.createElement("div");
+			playerNameElement.classList.add("player-name");
+			playerNameElement.textContent = playerName;
+			newPlayer.appendChild(playerNameElement);
+
+			// Add score
+			const scoreContainer = document.createElement("div");
+			scoreContainer.classList.add("score-container");
+
+			const scoreElement = document.createElement("div");
+			scoreElement.classList.add("score");
+			scoreElement.textContent = "0";
+			scoreContainer.appendChild(scoreElement);
+
+			// Add increment and decrement buttons
+			const btnGroup = document.createElement("div");
+			btnGroup.classList.add("btn-group");
+
+			const incrementBtn = document.createElement("button");
+			incrementBtn.textContent = "+";
+			incrementBtn.addEventListener("click", function() {
+				incrementScore(scoreElement);
+			});
+			btnGroup.appendChild(incrementBtn);
+
+			const decrementBtn = document.createElement("button");
+			decrementBtn.textContent = "-";
+			decrementBtn.addEventListener("click", function() {
+				decrementScore(scoreElement);
+			});
+			btnGroup.appendChild(decrementBtn);
+
+			scoreContainer.appendChild(btnGroup);
+			newPlayer.appendChild(scoreContainer);
+
+			// Add new player element to player list
+			const playerList = document.getElementById("player-list");
+			playerList.appendChild(newPlayer);
+
+			// Clear input value
+			playerNameInput.value = "";
+		}
+
+		// Function to increment score
+		function incrementScore(scoreElement) {
+			let score = parseInt(scoreElement.textContent);
+			score++;
+			scoreElement.textContent = score.toString();
+		}
+
+		// Function to decrement score
+		function decrementScore(scoreElement) {
+			let score = parseInt(scoreElement.textContent);
+			score--;
+			scoreElement.textContent = score.toString();
+		}
+	</script>
+<body>
