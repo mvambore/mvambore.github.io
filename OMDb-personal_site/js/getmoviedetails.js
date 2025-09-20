@@ -3,7 +3,7 @@ document.getElementById("movies_title_form").addEventListener("submit", function
 
   const movie_title = document.getElementById("movie_title").value;
   const apiKey = "5e3c5d9e";
-  const url = `http://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(movie_title)}`;
+  const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(movie_title)}`;
   
   fetch(url)
     .then(response => response.json())
