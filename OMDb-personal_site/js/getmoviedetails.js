@@ -21,27 +21,27 @@ document.getElementById("movies_title_form").addEventListener("submit", function
             </tr>
             <tr><td><b>Genre:</b> ${data.Genre}</td></tr>
             <tr><td><b>Plot:</b> ${data.Plot}</td></tr>
-            <tr><td><b>IMDb:</b> ${data.imdbRating}</td></tr>
-            <tr><td><b>RT:</b> ${rtRating ? rtRating.Value : "N/A"}</td></tr>
-            <tr><td><button id="saveBtn">💾 Save</button></td></tr>
+            <tr><td><img src="https://cdn.brandfetch.io/idsm3ekCSb/w/35/h/35/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1667571542186" alt="IMDb logo"> ${data.imdbRating}</td></tr>
+            <tr><td><img src="https://cdn.brandfetch.io/idPcBBhPP1/w/35/h/35/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1757813313002" alt="RT logo"> ${rtRating ? rtRating.Value : "N/A"}</td></tr>
           </table>
+          <br><br>
+          <button id="saveBtn">Save</button></td>
         `;
 
         // Add save functionality
         document.getElementById("saveBtn").addEventListener("click", function() {
-          const content = `
-            Poster: ${data.Poster}
-            Title: ${data.Title} (${data.Year})
-            Genre: ${data.Genre}
-            Plot: ${data.Plot}
-            IMDb: ${data.imdbRating}
-            RT: ${rtRating ? rtRating.Value : "N/A"}
-          `;
-
-          const blob = new Blob([content], { type: "text/plain" });
+          const content = `{
+"Poster": "${data.Poster}",
+"Title": "${data.Title} (${data.Year})",
+"Genre": "${data.Genre}",
+"Plot": "${data.Plot}",
+"IMDb": "${data.imdbRating}",
+"RT": "${rtRating ? rtRating.Value : "N/A"}"
+}`;
+          const blob = new Blob([content], { type: "text/json" });
           const link = document.createElement("a");
           link.href = URL.createObjectURL(blob);
-          link.download = `${data.Title.replace(/\s+/g, "_")}.txt`;
+          link.download = `${data.Title.replace(/\s+/g, "_")}.json`;
           link.click();
         });
         
