@@ -1,0 +1,862 @@
+[
+    {
+        "Title": "Inception",
+        "Year": "2010",
+        "Rated": "PG-13",
+        "Released": "16 Jul 2010",
+        "Runtime": "148 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Christopher Nolan",
+        "Writer": "Christopher Nolan",
+        "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+        "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+        "Language": "English, Japanese, French",
+        "Country": "United States, United Kingdom",
+        "Awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "87%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "74/100"
+            }
+        ],
+        "Metascore": "74",
+        "imdbRating": "8.8",
+        "imdbVotes": "2,731,250",
+        "imdbID": "tt1375666",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$292,587,330",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Grave of the fireflies",
+        "Year": "1988",
+        "Released": "16 April 1988",
+        "Genre": "war/drama",
+        "Director": "Isao Takahata",
+        "Plot": "It tells the story of siblings and war orphans Seita and Setsuko, and their desperate struggle to survive during the final months of the Pacific War.",
+        "Poster": "https://static.wikia.nocookie.net/studio-ghibli/images/6/6d/Grave_of_the_Fireflies_poster.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "100%"
+            }
+        ],
+        "imdbRating": "8.5",
+        "imdbVotes": "364,283",
+        "imdbID": "tt13024674",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Cars",
+        "Year": "2006",
+        "Rated": "G",
+        "Released": "09 Jun 2006",
+        "Runtime": "116 min",
+        "Genre": "Animation, Adventure, Comedy",
+        "Director": "John Lasseter, Joe Ranft",
+        "Writer": "John Lasseter, Joe Ranft, Jorgen Klubien",
+        "Actors": "Owen Wilson, Bonnie Hunt, Paul Newman",
+        "Plot": "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.",
+        "Language": "English, Italian, Japanese, Yiddish",
+        "Country": "United States",
+        "Awards": "Nominated for 2 Oscars. 28 wins & 34 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "74%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "73/100"
+            }
+        ],
+        "Metascore": "73",
+        "imdbRating": "7.3",
+        "imdbVotes": "513,360",
+        "imdbID": "tt0317219",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$244,082,982",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Kantara",
+        "Year": "2022",
+        "Rated": "Not Rated",
+        "Released": "30 Sep 2022",
+        "Runtime": "148 min",
+        "Genre": "Action, Adventure, Drama",
+        "Director": "Rishab Shetty",
+        "Writer": "Manish Bhavan, Shanil Guru, Anirudh Mahesh",
+        "Actors": "Rishab Shetty, Kishore Kumar G., Achyuth Kumar",
+        "Plot": "When greed paves the way for betrayal, scheming and murder, a young tribal reluctantly dons the traditions of his ancestors to seek justice.",
+        "Language": "Kannada",
+        "Country": "India",
+        "Awards": "21 wins & 14 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2VkZjk5ZjMtM2ExOS00ZDA1LTg1ZDEtYTliNGZiYTc4ZWZiXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.2/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "83%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.2",
+        "imdbVotes": "107,859",
+        "imdbID": "tt15327088",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "The Voyeurs",
+        "Year": "2021",
+        "Rated": "R",
+        "Released": "10 Sep 2021",
+        "Runtime": "116 min",
+        "Genre": "Drama, Mystery, Romance",
+        "Director": "Michael Mohan",
+        "Writer": "Michael Mohan",
+        "Actors": "Sydney Sweeney, Justice Smith, Ben Hardy",
+        "Plot": "Pippa and Thomas move into their dream apartment, but notice that their windows look directly into the apartment opposite. This will set in motion a chain of events that will lead to disaster.",
+        "Language": "English, Japanese, French",
+        "Country": "United States",
+        "Awards": "1 nomination total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTQ5NDVjZjAtZDM4NC00NmQzLTkwZmYtYjQ1YjQ5NDJjZjFlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "44%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "54/100"
+            }
+        ],
+        "Metascore": "54",
+        "imdbRating": "6.1",
+        "imdbVotes": "44,090",
+        "imdbID": "tt11235772",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Replicas",
+        "Year": "2018",
+        "Rated": "PG-13",
+        "Released": "11 Jan 2019",
+        "Runtime": "107 min",
+        "Genre": "Action, Drama, Sci-Fi",
+        "Director": "Jeffrey Nachmanoff",
+        "Writer": "Chad St. John, Stephen Hamel",
+        "Actors": "Keanu Reeves, Alice Eve, Thomas Middleditch",
+        "Plot": "A scientist becomes obsessed with bringing back his family members who died in a traffic accident.",
+        "Language": "English",
+        "Country": "United States, United Kingdom, China, Puerto Rico",
+        "Awards": "1 nomination total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODNhZDU0NzgtNjMxOC00ZGMzLThhZDctMzk5NzExMzIzZjFlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "5.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "9%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "19/100"
+            }
+        ],
+        "Metascore": "19",
+        "imdbRating": "5.5",
+        "imdbVotes": "44,392",
+        "imdbID": "tt4154916",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$4,046,429",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "The Truman Show",
+        "Year": "1998",
+        "Rated": "PG",
+        "Released": "05 Jun 1998",
+        "Runtime": "103 min",
+        "Genre": "Comedy, Drama",
+        "Director": "Peter Weir",
+        "Writer": "Andrew Niccol",
+        "Actors": "Jim Carrey, Ed Harris, Laura Linney",
+        "Plot": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 3 Oscars. 41 wins & 69 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.2/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "94%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "90/100"
+            }
+        ],
+        "Metascore": "90",
+        "imdbRating": "8.2",
+        "imdbVotes": "1,320,152",
+        "imdbID": "tt0120382",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$125,618,201",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Me Before You",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "03 Jun 2016",
+        "Runtime": "110 min",
+        "Genre": "Drama, Romance",
+        "Director": "Thea Sharrock",
+        "Writer": "Jojo Moyes",
+        "Actors": "Emilia Clarke, Sam Claflin, Janet McTeer",
+        "Plot": "A girl in a small town forms an unlikely bond with a recently-paralyzed man she's taking care of.",
+        "Language": "English, French",
+        "Country": "United States",
+        "Awards": "6 wins & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NjE4NDE2NV5BMl5BanBnXkFtZTgwOTcwNDE5NzE@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "55%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "51/100"
+            }
+        ],
+        "Metascore": "51",
+        "imdbRating": "7.4",
+        "imdbVotes": "318,920",
+        "imdbID": "tt2674426",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$56,245,075",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Basic Instinct",
+        "Year": "1992",
+        "Rated": "R",
+        "Released": "20 Mar 1992",
+        "Runtime": "127 min",
+        "Genre": "Drama, Mystery, Romance",
+        "Director": "Paul Verhoeven",
+        "Writer": "Joe Eszterhas",
+        "Actors": "Michael Douglas, Sharon Stone, George Dzundza",
+        "Plot": "A violent police detective investigates a brutal murder that might involve a manipulative and seductive novelist.",
+        "Language": "English, Spanish",
+        "Country": "France, United States",
+        "Awards": "Nominated for 2 Oscars. 6 wins & 23 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZWYwYmQzYTctMjg5Ni00NWZkLWI5NzItZGFjMDM2NDkyNGZlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "56%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "43/100"
+            }
+        ],
+        "Metascore": "43",
+        "imdbRating": "7.1",
+        "imdbVotes": "235,082",
+        "imdbID": "tt0103772",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$117,727,224",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "2018",
+        "Year": "2023",
+        "Rated": "Not Rated",
+        "Released": "05 May 2023",
+        "Runtime": "150 min",
+        "Genre": "Action, Drama, Thriller",
+        "Director": "Jude Anthany Joseph",
+        "Writer": "Akhil P. Dharmajan, Jude Anthany Joseph",
+        "Actors": "Tovino Thomas, Kunchacko Boban, Asif Ali",
+        "Plot": "A disaster film set during the 2018 Kerala Floods where people from all walks of life faced catastrophic consequences and put in collective efforts to survive the calamity.",
+        "Language": "Malayalam",
+        "Country": "India",
+        "Awards": "12 wins & 7 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjBjYzVmOTAtMWI2NC00ODhiLTk4NDYtYmY3YmQxYmU2NTI5XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "100%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.3",
+        "imdbVotes": "13,909",
+        "imdbID": "tt9006564",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Hypnotic",
+        "Year": "2023",
+        "Rated": "R",
+        "Released": "12 May 2023",
+        "Runtime": "93 min",
+        "Genre": "Action, Drama, Mystery",
+        "Director": "Robert Rodriguez",
+        "Writer": "Robert Rodriguez, Max Borenstein",
+        "Actors": "Ben Affleck, Alice Braga, JD Pardo",
+        "Plot": "A detective investigates a mystery involving his missing daughter and a secret government program.",
+        "Language": "English, Spanish",
+        "Country": "United States, United Kingdom, Canada",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzUyNzBjMjQtNmJhOS00M2U0LTg0MWEtZDVmYmNjNGY2N2U4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "5.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "32%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "53/100"
+            }
+        ],
+        "Metascore": "53",
+        "imdbRating": "5.5",
+        "imdbVotes": "43,708",
+        "imdbID": "tt8080204",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$4,500,169",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Code 8",
+        "Year": "2019",
+        "Rated": "TV-MA",
+        "Released": "13 Dec 2019",
+        "Runtime": "98 min",
+        "Genre": "Action, Crime, Drama",
+        "Director": "Jeff Chan",
+        "Writer": "Chris Pare, Jeff Chan",
+        "Actors": "Kari Matchett, Robbie Amell, Penny Eizenga",
+        "Plot": "A super-powered construction worker falls in with a group of criminals in order to raise the funds to help his ill mother.",
+        "Language": "English",
+        "Country": "Canada, United Kingdom",
+        "Awards": "1 nomination total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWNjZDVlMzUtZWVhNi00YmRmLThlM2MtZWZmOTY4ZjI0MTVlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "85%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "48/100"
+            }
+        ],
+        "Metascore": "48",
+        "imdbRating": "6.1",
+        "imdbVotes": "56,500",
+        "imdbID": "tt6259380",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Central Intelligence",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "17 Jun 2016",
+        "Runtime": "107 min",
+        "Genre": "Action, Comedy, Crime",
+        "Director": "Rawson Marshall Thurber",
+        "Writer": "Ike Barinholtz, David Stassen, Rawson Marshall Thurber",
+        "Actors": "Dwayne Johnson, Kevin Hart, Danielle Nicolet",
+        "Plot": "After he reconnects with an awkward pal from high school through Facebook, a mild-mannered accountant is lured into the world of international espionage.",
+        "Language": "English",
+        "Country": "United States, China",
+        "Awards": "2 wins & 8 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjA2NzEzNjIwNl5BMl5BanBnXkFtZTgwNzgwMTEzNzE@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "71%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "52/100"
+            }
+        ],
+        "Metascore": "52",
+        "imdbRating": "6.3",
+        "imdbVotes": "229,198",
+        "imdbID": "tt1489889",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$127,440,871",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "The Family Plan",
+        "Year": "2023",
+        "Rated": "PG-13",
+        "Released": "15 Dec 2023",
+        "Runtime": "118 min",
+        "Genre": "Action, Comedy",
+        "Director": "Simon Cellan Jones",
+        "Writer": "David Coggeshall",
+        "Actors": "Mark Wahlberg, Michelle Monaghan, Ciarán Hinds",
+        "Plot": "A former top assassin living incognito as a suburban dad must take his unsuspecting family on the run when his past catches up to him.",
+        "Language": "English, French, German, Swedish",
+        "Country": "United States",
+        "Awards": "3 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjcxYmNmNTktZDhlNS00ZGUzLTk2NGUtZDQwMDVmMWZkMjY0XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "29%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "39/100"
+            }
+        ],
+        "Metascore": "39",
+        "imdbRating": "6.3",
+        "imdbVotes": "55,505",
+        "imdbID": "tt16431870",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Prisoners",
+        "Year": "2013",
+        "Rated": "R",
+        "Released": "20 Sep 2013",
+        "Runtime": "153 min",
+        "Genre": "Crime, Drama, Mystery",
+        "Director": "Denis Villeneuve",
+        "Writer": "Aaron Guzikowski",
+        "Actors": "Hugh Jackman, Jake Gyllenhaal, Viola Davis",
+        "Plot": "A desperate father takes the law into his own hands after police fail to find two kidnapped girls.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 10 wins & 38 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.2/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "81%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "70/100"
+            }
+        ],
+        "Metascore": "70",
+        "imdbRating": "8.2",
+        "imdbVotes": "890,250",
+        "imdbID": "tt1392214",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$61,002,302",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "IF",
+        "Year": "2024",
+        "Rated": "PG",
+        "Released": "17 May 2024",
+        "Runtime": "104 min",
+        "Genre": "Animation, Comedy, Drama",
+        "Director": "John Krasinski",
+        "Writer": "John Krasinski",
+        "Actors": "Cailey Fleming, Ryan Reynolds, John Krasinski",
+        "Plot": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
+        "Language": "English",
+        "Country": "Canada, United States",
+        "Awards": "7 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjFiY2U2NjUtMWIxMy00NjJkLWI3OTItYzM3MzBlZDkyMDNkXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "51%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "46/100"
+            }
+        ],
+        "Metascore": "46",
+        "imdbRating": "6.4",
+        "imdbVotes": "59,154",
+        "imdbID": "tt11152168",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$111,375,918",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "American Psycho",
+        "Year": "2000",
+        "Rated": "R",
+        "Released": "14 Apr 2000",
+        "Runtime": "102 min",
+        "Genre": "Crime, Drama, Horror",
+        "Director": "Mary Harron",
+        "Writer": "Bret Easton Ellis, Mary Harron, Guinevere Turner",
+        "Actors": "Christian Bale, Justin Theroux, Josh Lucas",
+        "Plot": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
+        "Language": "English, Spanish, Cantonese",
+        "Country": "United States",
+        "Awards": "7 wins & 11 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzBjM2I5ZjUtNmIzNy00OGNkLWIwZDMtOTAwYWUwMzA2YjdlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.6/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "68%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "64/100"
+            }
+        ],
+        "Metascore": "64",
+        "imdbRating": "7.6",
+        "imdbVotes": "793,967",
+        "imdbID": "tt0144084",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$15,070,285",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "American Beauty",
+        "Year": "1999",
+        "Rated": "R",
+        "Released": "01 Oct 1999",
+        "Runtime": "122 min",
+        "Genre": "Drama",
+        "Director": "Sam Mendes",
+        "Writer": "Alan Ball",
+        "Actors": "Kevin Spacey, Annette Bening, Thora Birch",
+        "Plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 5 Oscars. 112 wins & 102 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "87%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "84/100"
+            }
+        ],
+        "Metascore": "84",
+        "imdbRating": "8.3",
+        "imdbVotes": "1,258,807",
+        "imdbID": "tt0169547",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$130,096,601",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "M3GAN",
+        "Year": "2022",
+        "Rated": "PG-13",
+        "Released": "06 Jan 2023",
+        "Runtime": "102 min",
+        "Genre": "Horror, Sci-Fi, Thriller",
+        "Director": "Gerard Johnstone",
+        "Writer": "Akela Cooper, James Wan",
+        "Actors": "Allison Williams, Violet McGraw, Ronny Chieng",
+        "Plot": "When robotics engineer Gemma becomes the guardian of her orphaned niece, Cady, she thinks her new invention, a robotic AI, will be a good companion. However, M3GAN begins to behave in unexpected and shocking ways.",
+        "Language": "English",
+        "Country": "United States, New Zealand",
+        "Awards": "4 wins & 31 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjU1ZWMxYTUtNzQ1ZC00ZTcxLTg0NTMtMzY1ZmQyZjhmYjMyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "93%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "72/100"
+            }
+        ],
+        "Metascore": "72",
+        "imdbRating": "6.3",
+        "imdbVotes": "173,875",
+        "imdbID": "tt8760708",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$95,159,005",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "M3GAN 2.0",
+        "Year": "2025",
+        "Rated": "PG-13",
+        "Released": "27 Jun 2025",
+        "Runtime": "120 min",
+        "Genre": "Action, Sci-Fi, Thriller",
+        "Director": "Gerard Johnstone",
+        "Writer": "Gerard Johnstone, Akela Cooper, James Wan",
+        "Actors": "Allison Williams, Violet McGraw, Amie Donald",
+        "Plot": "Two years after M3GAN's rampage, her creator, Gemma, resorts to resurrecting her infamous creation in order to take down Amelia, the military-grade weapon who was built by a defense contractor who stole M3GAN's underlying tech.",
+        "Language": "English, Turkish",
+        "Country": "United States, New Zealand, Canada",
+        "Awards": "1 win & 1 nomination total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzFmNjVjZWQtZjI5Zi00YThiLTg0ZWItZDdjYzhhZDE1NTE2XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "58%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "54/100"
+            }
+        ],
+        "Metascore": "54",
+        "imdbRating": "6.1",
+        "imdbVotes": "28,792",
+        "imdbID": "tt26342662",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$24,101,280",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Red Eye",
+        "Year": "2005",
+        "Rated": "PG-13",
+        "Released": "19 Aug 2005",
+        "Runtime": "85 min",
+        "Genre": "Thriller",
+        "Director": "Wes Craven",
+        "Writer": "Carl Ellsworth, Dan Foos",
+        "Actors": "Rachel McAdams, Cillian Murphy, Brian Cox",
+        "Plot": "Lisa on her flight to Miami befriends Jackson who turns out to be a terrorist. Holding her hostage, he forces her to help him assassinate the United States Deputy Secretary of Homeland Security.",
+        "Language": "English, Russian",
+        "Country": "United States",
+        "Awards": "2 wins & 10 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzAxNjc1ODczOF5BMl5BanBnXkFtZTcwMjE3MjEzMw@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "80%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "71/100"
+            }
+        ],
+        "Metascore": "71",
+        "imdbRating": "6.4",
+        "imdbVotes": "160,587",
+        "imdbID": "tt0421239",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$57,891,803",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Army of Thieves",
+        "Year": "2021",
+        "Rated": "TV-MA",
+        "Released": "29 Oct 2021",
+        "Runtime": "127 min",
+        "Genre": "Action, Comedy, Crime",
+        "Director": "Matthias Schweighöfer",
+        "Writer": "Zack Snyder, Shay Hatten",
+        "Actors": "Matthias Schweighöfer, Nathalie Emmanuel, Ruby O. Fee",
+        "Plot": "A prequel, set before the events of Army of the Dead, which focuses on German safecracker Ludwig Dieter leading a group of aspiring thieves on a top secret heist during the early stages of the zombie apocalypse.",
+        "Language": "English, French, German, Czech, Portuguese",
+        "Country": "Germany, United States",
+        "Awards": "1 win total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjA5NTk2MmEtMDUzMy00NDYwLTkzY2EtNmFlODQxNjg3ZjE4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "69%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "49/100"
+            }
+        ],
+        "Metascore": "49",
+        "imdbRating": "6.4",
+        "imdbVotes": "95,283",
+        "imdbID": "tt13024674",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }
+]
