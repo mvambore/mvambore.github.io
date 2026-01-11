@@ -7,14 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-    <style src="ccs/table.css"></style>
 </head>
 <body>
-    <center><H1>Personally recomended movies</H1></center>
-    
-    <a href='http://www.freevisitorcounters.com'>free counter</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7f4cc95e640cbaaab0abe212a38db2a3c3859860'></script>
-    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1404695/t/3"></script>
-    <br>
+    <center><H1>Personally recomended/recomend movies</H1></center>
     
     <form id="movies_title_form">
         <label for="movie_title">Search movie name: </label>
@@ -27,13 +22,20 @@
     <div id="result"></div>
     <script src="js/getmoviedetails.js"></script>
 
-    <br>
+    <div class="custom-line"></div>
 
     <h2>Recomendations</h2>
     <table id="moviesTable">
         <tbody></tbody>
+            <script src="js/showmovieslist.js"></script>
     </table>
-    <script src="js/showmovieslist.js"></script>
-
+    </div>
 </body>
+
+<footer>
+    <div class="custom-line"></div>
+    Visitor Count <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1404695/t/3"></script>
+    <br>
+    <p>Last updated 11/Jan/2026</p>
+</footer>
 </html>

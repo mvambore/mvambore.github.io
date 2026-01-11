@@ -1,7 +1,8 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    }
+    min-width: 600px; /* Important: prevents the columns from squishing too much */
+}
 
 td {
     border: 1px solid #ccc;
@@ -26,3 +27,9 @@ td {
     font-size: 14px;
     color: #333;
 }
+
+.custom-line {
+    border-top: 2px solid red; /* Creates a red line on the top of the div */
+    width: 70%;
+    margin: 20px auto;
+  }

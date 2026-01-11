@@ -25,7 +25,7 @@ document.getElementById("movies_title_form").addEventListener("submit", function
             <tr><td><img src="https://cdn.brandfetch.io/idPcBBhPP1/w/35/h/35/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1757813313002" alt="RT logo"> ${rtRating ? rtRating.Value : "N/A"}</td></tr>
           </table>
           <br><br>
-          <button id="saveBtn">Save</button></td>
+          <button id="saveBtn">Recomend</button></td>
         `;
 
         // Add save functionality
