@@ -16,12 +16,12 @@ fetch('movies.json')
 
     cell.innerHTML = `
         <div class="movie">
-        <img src="${movie.Poster}" alt="${movie.Title} poster" class="movie-poster">
-        <center><div class="movie-title">${movie.Title} (${movie.Year})</div></center>
-        <div class="movie-info">${movie.Genre}</div>
-        <br><div class="movie-info">${movie.Plot}</div>
-        <br><div class="movie-info">IMDB: ${movie.imdbRating} (${movie.imdbVotes})</div>
-        <div class="movie-info">Rotten Tmt: ${rtRating}</div>
+            <img src="${movie.Poster}" alt="${movie.Title} poster" class="movie-poster">
+            <center><div class="movie-title">${movie.Title} (${movie.Year})</div></center>
+            <div class="movie-info">${movie.Genre}</div>
+            <br><div class="movie-info">${movie.Plot}</div>
+            <br><div class="movie-info">IMDB: ${movie.imdbRating} (${movie.imdbVotes})</div>
+            <div class="movie-info">Rotten Tmt: ${rtRating}</div>
         </div>
         `;
         row.appendChild(cell);
