@@ -6,7 +6,7 @@ fetch('movies.json')
 
     data.forEach((movie, index) => {
     // Start a new row every 4 movies
-    if (index % 4 === 0) {
+    if (index % 3 === 0) {
         row = document.createElement('tr');
         tbody.appendChild(row);
     }
