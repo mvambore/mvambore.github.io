@@ -4,7 +4,7 @@ fetch('movies.json')
     const tbody = document.querySelector('#moviesTable tbody');
     let row;
 
-    data.forEach((movie, index) => {
+    [...data].reverse().forEach((movie, index) => {
     // Start a new row every 4 movies
     if (index % 4 === 0) {
         row = document.createElement('tr');
