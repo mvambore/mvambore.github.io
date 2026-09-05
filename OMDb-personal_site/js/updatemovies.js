@@ -23,24 +23,28 @@ async function insertInto(tableName, payload) {
 document.addEventListener("movieDetailRendered", function(event) {
   const payload = event.detail;
   const watchedButton = document.getElementById("watchedBtn");
+  const saveButton = document.getElementById("saveBtn");
 
   if (!payload || !watchedButton || !saveButton) return;
 
   watchedButton.addEventListener("click", async function() {
+    watchedButton.disabled = true;
+
     try {
-      watchedButton.disabled = true;
       await insertInto("movies-watched", payload);
       document.getElementById("movieModal").classList.remove("active");
       if (typeof loadWatchedMovies === "function") loadWatchedMovies();
     } catch (err) {
       alert("Error: " + err.message);
+    } finally {
       watchedButton.disabled = false;
     }
   });
 
   saveButton.addEventListener("click", async function() {
+    saveButton.disabled = true;
+
     try {
-      saveButton.disabled = true;
       await insertInto("movies-recommended", payload);
       await insertInto("movies-watched", payload);
       document.getElementById("movieModal").classList.remove("active");
@@ -48,6 +52,7 @@ document.addEventListener("movieDetailRendered", function(event) {
       if (typeof loadWatchedMovies === "function") loadWatchedMovies();
     } catch (err) {
       alert("Error: " + err.message);
+    } finally {
       saveButton.disabled = false;
     }
   });
