@@ -176,9 +176,31 @@ td {
     text-overflow: ellipsis;
 }
 
-#watchedBtn {
-    background: #eee;
-    color: #333;
-    border: 1px solid #ccc;
-    margin-right: 8px;
+#moviesHistoryTable {
+    min-width: 0;
+}
+
+#moviesHistoryTable td {
+    width: auto;
+    vertical-align: middle;
+}
+
+.history-poster {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
+
+.history-title {
+    font-weight: bold;
+}
+
+.history-date {
+    color: #555;
+    white-space: nowrap;
+}
+
+.history-error {
+    color: red;
 }
