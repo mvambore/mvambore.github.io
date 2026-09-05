@@ -4,6 +4,13 @@ table {
     min-width: 600px;
 }
 
+.history-table-scroll {
+    max-height: 480px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+
 td {
     border: 1px solid #ccc;
     padding: 12px;

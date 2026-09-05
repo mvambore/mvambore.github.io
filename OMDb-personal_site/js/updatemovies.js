@@ -34,6 +34,7 @@ document.addEventListener("movieDetailRendered", function(event) {
       await insertInto("movies-watched", payload);
       document.getElementById("movieModal").classList.remove("active");
       if (typeof loadWatchedMovies === "function") loadWatchedMovies();
+      if (typeof updateLastUpdated === "function") updateLastUpdated();
     } catch (err) {
       alert("Error: " + err.message);
     } finally {
@@ -50,6 +51,7 @@ document.addEventListener("movieDetailRendered", function(event) {
       document.getElementById("movieModal").classList.remove("active");
       if (typeof loadRecommendedMovies === "function") loadRecommendedMovies();
       if (typeof loadWatchedMovies === "function") loadWatchedMovies();
+      if (typeof updateLastUpdated === "function") updateLastUpdated();
     } catch (err) {
       alert("Error: " + err.message);
     } finally {
