@@ -1,14 +1,14 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 600px; /* Important: prevents the columns from squishing too much */
+    min-width: 600px;
 }
 
 td {
     border: 1px solid #ccc;
     padding: 12px;
     vertical-align: top;
-    width: 25%; /* 4 columns */
+    width: 25%;
 }
 
 .movie-title {
@@ -29,29 +29,156 @@ td {
 }
 
 .custom-line {
-    border-top: 2px solid red; /* Creates a red line on the top of the div */
+    border-top: 2px solid red;
     width: 70%;
     margin: 20px auto;
 }
 
 .marquee-container {
     width: 100%;
-    overflow: hidden; /* Hides the text outside the container initially */
-    white-space: nowrap; /* Keeps the text on a single line */
+    overflow: hidden;
+    white-space: nowrap;
     box-sizing: border-box;
 }
 
 .marquee-text {
     display: inline-block;
-    padding-left: 100%; /* Starts the text off-screen to the right */
-    animation: marquee 15s linear infinite; /* Animation name, duration, timing, repeat count */
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
     0% {
-        transform: translateX(0); /* Start position (fully off-screen right) */
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%); /* End position (fully off-screen left) */
+        transform: translateX(-100%);
     }
+}
+
+/* Modal styles */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 90%;
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.search-result:hover {
+    background: #f2f2f2;
+}
+
+#searchResults {
+    max-height: 320px; /* roughly 4 results tall, adjust if needed */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#searchResults::-webkit-scrollbar {
+    width: 8px;
+}
+
+#searchResults::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+}
+
+#searchResults::-webkit-scrollbar-track {
+    background: #f5f5f5;
+}
+
+.detail-card {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.detail-poster {
+    width: 130px;
+    min-width: 130px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.detail-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.detail-info h3 {
+    margin: 0 0 8px 0;
+}
+
+.detail-row {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.detail-row img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.detail-plot {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.movie-plot {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#watchedBtn {
+    background: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    margin-right: 8px;
 }
